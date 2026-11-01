@@ -1,0 +1,37 @@
+KB INDENDØRSLIGA – SÆSON 2026/27
+
+FILER TIL DEN OFFENTLIGE HJEMMESIDE:
+index.html
+kb-logo.png
+data.json
+
+PRIVAT FIL – MÅ IKKE LÆGGES PÅ HJEMMESIDEN:
+ADMIN_LOKAL.html
+
+SÅDAN OPDATERER DU RESULTATER:
+1. Åbn ADMIN_LOKAL.html på din computer.
+2. Indlæs den seneste data.json.
+3. Registrer spillere, hold og kampresultater fra papirskemaet.
+4. Klik Gem spilledag.
+5. Klik Hent opdateret data.json.
+6. Erstat data.json i hjemmesidens GitHub repository med den nye fil.
+7. Hjemmesiden viser derefter den opdaterede stilling.
+
+OFFENTLIGGØRELSE MED GITHUB PAGES:
+1. Opret et GitHub repository til hjemmesiden.
+2. Upload index.html, kb-logo.png og data.json til roden af projektet.
+3. Åbn Settings > Pages, vælg Deploy from a branch, main og / (root).
+4. GitHub viser herefter hjemmesidens adresse.
+
+VIGTIGT:
+- Hjemmesiden er endnu ikke offentliggjort. Det kræver en GitHub konto og aktivering af Pages.
+- Den offentlige side kan kun vise data, som er gemt i data.json.
+- Der er ingen eksempler med opdigtede spillere eller resultater.
+- Spillerne er mindreårige. Indhent relevant accept og overvej kun fornavn eller initialer på en offentlig side.
+- ADMIN_LOKAL.html er et lokalt administrationsværktøj, ikke et login til hjemmesiden.
+- Hjemmesiden kan vises af alle, som har linket, når den er offentliggjort.
+
+NEDTÆLLING: Følger de fastlagte spilledatoer kl. 16.00 i dansk tid.
+LOGO: Logoet er nu indlejret direkte i index.html, så det altid vises, også hvis billedfilen mangler.
+
+Spillekalender: De 13 datoer ligger i data.json under trainingDates. Nedtællingen følger kun disse datoer og kl. 16.00.
